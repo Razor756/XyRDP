@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "ryujinrdp-1",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -42,10 +42,11 @@
     "mode": "tailscale",
     "tailscale": {
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "hostname": "ryujinrdp-1",
-      "magicdns": "ryujinrdp-1.tail5f51cf.ts.net.",
       "status": "ok",
-      "ip": "100.91.125.101"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -110,5 +111,6 @@
     "errors": [],
     "public_port": false
   },
-  "heartbeat_at": "2026-10-14T20:27:14.0849948Z"
+  "heartbeat_at": "2026-10-14T20:27:14.0849948Z",
+  "stopped_at": "2026-10-14T20:32:06Z"
 }
