@@ -53,5 +53,75 @@
     "wallpaper": "xyverse_configured_for_user_logon",
     "microphone": "rdp_capture_enabled",
     "audio_output": "rdp_playback_enabled"
+  },
+  "win10": {
+    "look": "ok",
+    "badge": "ok",
+    "wallpaper": "ok",
+    "search": "ok",
+    "os": "Microsoft Windows Server 2025 Datacenter",
+    "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
+  },
+  "grafis": {
+    "note": "Optional isolated CPU renderer files; not activated or benchmarked.",
+    "mesa": "26.2.4",
+    "mode": "toolkit_only",
+    "adapters": "Microsoft Hyper-V Video"
+  },
+  "extras": {
+    "lightshot": "ok",
+    "translucent": "disabled",
+    "wallpaper": "ok",
+    "wallpaper_file": "wallpaper.jpg",
+    "vscode": "skip",
+    "notepadpp": "skip",
+    "admin": true
+  },
+  "samp": {
+    "samp_installed": false,
+    "status": "dependencies_ready",
+    "directplay": "Enabled",
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "play_tested": false,
+    "netfx3": "Enabled",
+    "gta_installed": false,
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "directx": "verified_x86_x64"
+  },
+  "games": {
+    "minecraft_java": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "roblox": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "samp": {
+      "game_dir": null,
+      "gta_installed": false,
+      "status": "dependencies_ready",
+      "samp_installed": false,
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji."
+    },
+    "minecraft_bedrock": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    }
+  },
+  "game_environment": {
+    "windows_server": true,
+    "os": "Microsoft Windows Server 2025 Datacenter",
+    "runner": "windows-latest",
+    "play_tested": false,
+    "hypervisor_present": true
+  },
+  "host_tools": {
+    "winrar": "verified 7.23.0 (vendor trial; license not included)",
+    "vcredist": "verified_current_v14_x86_x64",
+    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
+    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
+    "errors": [],
+    "public_port": false
   }
 }
